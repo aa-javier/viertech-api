@@ -21,14 +21,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/viertech/api.git"
+    "url": "git+https://github.com/aa-javier/viertech-api.git"
   },
   "bugs": {
-    "url": "https://github.com/viertech/api/issues"
+    "url": "https://github.com/aa-javier/viertech-api/issues"
   },
-  "homepage": "https://github.com/viertech/api#readme",
+  "homepage": "https://github.com/aa-javier/viertech-api#readme",
   "keywords": [
     "viertech",
+    "viertechjs",
     "vier-api",
     "api-client",
     "sdk",
