@@ -1,11 +1,11 @@
-# @viertech/api
+# @viertechjs/api
 
 Official Node.js SDK for **Vier API**.
 
 ## Install
 
 ```bash
-npm install @viertech/api
+npm install @viertechjs/api
 ```
 
 ## CommonJS
@@ -26,7 +26,7 @@ const result = await api.get('/v1/sticker/scrop', {
 ## ESM
 
 ```js
-import VierApiPackage from '@viertech/api'
+import VierApiPackage from '@viertechjs/api'
 
 const { VierApi } = VierApiPackage
 const api = new VierApi({ apiKey: process.env.VIER_API_KEY })
