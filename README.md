@@ -11,7 +11,7 @@ npm install @viertechjs/api
 ## CommonJS
 
 ```js
-const { VierApi } = require('@viertech/api')
+const { VierApi } = require('@viertechjs/api')
 
 const api = new VierApi({
   apiKey: process.env.VIER_API_KEY
