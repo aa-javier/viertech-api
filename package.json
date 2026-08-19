@@ -1,0 +1,46 @@
+{
+  "name": "@viertech/api",
+  "version": "1.0.0",
+  "description": "Official Node.js SDK for Vier API",
+  "main": "lib/index.js",
+  "type": "commonjs",
+  "exports": {
+    ".": {
+      "require": "./lib/index.js",
+      "default": "./lib/index.js"
+    }
+  },
+  "files": [
+    "lib/**/*.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "check": "node --check lib/index.js",
+    "pack:check": "npm pack --dry-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viertech/api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/viertech/api/issues"
+  },
+  "homepage": "https://github.com/viertech/api#readme",
+  "keywords": [
+    "viertech",
+    "vier-api",
+    "api-client",
+    "sdk",
+    "nodejs",
+    "downloader",
+    "ai",
+    "sticker",
+    "whatsapp"
+  ],
+  "author": "VierTech Solutions",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
